@@ -1,0 +1,179 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+header{
+    background-color: rgb(223, 217, 172);
+    font-family: 'Caveat', cursive;
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    margin: 8px 16px;
+}
+
+.container nav,
+.container nav ul{
+    display: flex;
+    align-items: center;
+}
+
+.container nav h1{
+    font-size: 62px;
+    font-weight: normal;
+    color: rgb(183, 127, 24);
+}
+
+.container nav img{
+    max-height: 100px;
+    margin-right: 16px;
+}
+
+.container nav ul li{
+    margin-right: 16px;
+    list-style: none;
+}
+
+.container nav ul li a{
+    text-decoration: none;
+    font-size: 24px;
+    color: rgb(121, 86, 50);
+}
+
+body{
+    font-family: 'Comfortaa', cursive;
+    background-color:rgb(240, 237, 221) ;
+}
+
+.container h2{
+    margin: 40px 0px 0px 36px;
+    font-family: 'Caveat', cursive;
+    font-weight: normal;
+    color: rgb(183, 127, 24);
+    font-size: 36px;
+}
+
+.itens{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+#products .itens nav,
+#contact .itens nav{
+    width: 20%;
+    margin: 35px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+#products .container,
+#history .container,
+#contact .container{
+    display: flex;
+    flex-direction: column;
+}
+
+#products .container nav img{
+    max-height: 250px;
+    margin: 36px 0px;
+}
+
+#products .container nav h3{
+    color: rgb(121, 86, 50);
+    font-family: 'Caveat', cursive;
+    font-size: 30px;
+    font-weight: normal;
+    margin: 8px 0;
+}
+
+#products .container nav h4{
+    color: rgb(209, 176, 42);
+    font-size: 16px;
+    font-weight: normal;
+    margin-bottom: 6px;
+}
+
+#products .container nav h5{
+    color: rgb(209, 176, 42);
+    font-size: 16px;
+    font-weight: normal;
+}
+
+#history .container .itens
+#contact .container .itens{
+    display: flex;
+    flex-direction: row;
+}
+
+#history .container .itens img{
+    max-height: 400px;
+    margin: 36px;
+}
+
+#history .container .itens h3{
+    color: rgb(121, 86, 50);
+    font-size: 16px;
+    font-weight: normal;
+    width: 50%;
+    margin: 36px 0px;
+}
+
+
+#contact .container nav{
+    width: 45%;
+}
+
+#contact .container nav h3{
+    color: rgb(121, 86, 50);
+    font-size: 16px;
+    font-weight: normal;
+    margin-bottom: 8px;
+}
+
+form input,
+form textarea,
+form button{
+    display: block;
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 8px;
+}
+
+form textarea{
+    resize: none;
+    height: 140px;
+}
+
+#contact .container nav .links{
+    display: flex;
+    flex-direction: row;
+}
+
+#contact .container nav .links a img{
+    height: 50%;
+}
+
+form button{
+    background-color: rgb(121, 86, 50);
+    color: #ecf0f1;
+    border: none;
+    cursor: pointer;
+}
+
+input:focus,
+textarea:focus{
+    outline-color: rgb(209, 176, 42);
+}
+
+footer{
+    background-color: rgb(223, 217, 172);
+    padding: 16px;
+    font-size: 12px;
+    color: rgb(121, 86, 50);
+}
+
